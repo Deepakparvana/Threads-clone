@@ -25,7 +25,7 @@ const Logout = () => {
         localStorage.clear();
         setTimeout(() => {
             router.push('/login');
-        }, 300);
+        }, 400);
     }
 
 
